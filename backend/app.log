@@ -1,0 +1,88 @@
+
+
+
+2025-04-30 14:27:55,175 - __main__ - INFO - Starting reference paper test
+2025-04-30 14:27:55,175 - __main__ - INFO - Searching for papers with keywords: ['artificial intelligence', 'machine learning'], title: Recent Advances in AI
+2025-04-30 14:27:55,176 - openalex_search - INFO - Searching for papers with keywords: ['artificial intelligence', 'machine learning'], title: Recent Advances in AI
+2025-04-30 14:27:55,176 - openalex_search - DEBUG - Search parameters: {'mailto': 'rgargriyansh@gmail.com', 'per-page': 5, 'page': 1, 'search': 'artificial intelligence machine learning Recent Advances in AI'}
+2025-04-30 14:27:55,178 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openalex.org:443
+2025-04-30 14:27:56,823 - urllib3.connectionpool - DEBUG - https://api.openalex.org:443 "GET /works?mailto=rgargriyansh%40gmail.com&per-page=5&page=1&search=artificial+intelligence+machine+learning+Recent+Advances+in+AI HTTP/11" 200 14033
+2025-04-30 14:27:57,046 - openalex_search - INFO - Found 5 papers
+2025-04-30 14:27:57,047 - __main__ - INFO - Found 5 papers
+2025-04-30 14:27:57,047 - __main__ - INFO - Processing paper 1: Explainable AI: A Review of Machine Learning Interpretability Methods
+2025-04-30 14:27:57,047 - openalex_search - DEBUG - Getting download links for work: Explainable AI: A Review of Machine Learning Interpretability Methods
+2025-04-30 14:27:57,048 - openalex_search - DEBUG - Found primary location PDF: https://www.mdpi.com/1099-4300/23/1/18/pdf?version=1609160444
+2025-04-30 14:27:57,048 - openalex_search - DEBUG - Found additional PDF location: https://www.mdpi.com/1099-4300/23/1/18/pdf?version=1609160444
+2025-04-30 14:27:57,049 - openalex_search - DEBUG - Found open access URL: https://www.mdpi.com/1099-4300/23/1/18/pdf?version=1609160444
+2025-04-30 14:27:57,049 - openalex_search - INFO - Total download links found: 3
+2025-04-30 14:27:57,050 - __main__ - INFO - Found 3 download links
+2025-04-30 14:27:57,050 - __main__ - INFO - Attempting to download from: https://www.mdpi.com/1099-4300/23/1/18/pdf?version=1609160444
+2025-04-30 14:27:57,051 - openalex_search - INFO - Attempting to download paper: Explainable AI: A Review of Machine Learning Interpretability Methods
+2025-04-30 14:27:57,052 - openalex_search - DEBUG - Download URL: https://www.mdpi.com/1099-4300/23/1/18/pdf?version=1609160444
+2025-04-30 14:27:57,052 - openalex_search - DEBUG - Target filepath: papers\Explainable AI_ A Review of Machine Learning Interpretability Methods.pdf
+2025-04-30 14:27:57,053 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.mdpi.com:443
+2025-04-30 14:27:57,606 - urllib3.connectionpool - DEBUG - https://www.mdpi.com:443 "GET /1099-4300/23/1/18/pdf?version=1609160444 HTTP/11" 302 0
+2025-04-30 14:27:57,608 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): mdpi-res.com:443
+2025-04-30 14:27:58,452 - urllib3.connectionpool - DEBUG - https://mdpi-res.com:443 "GET /d_attachment/entropy/entropy-23-00018/article_deploy/entropy-23-00018-v2.pdf?version=1609160444 HTTP/11" 200 1112517
+2025-04-30 14:27:59,212 - openalex_search - INFO - Successfully downloaded paper to: papers\Explainable AI_ A Review of Machine Learning Interpretability Methods.pdf
+2025-04-30 14:27:59,215 - __main__ - INFO - Successfully downloaded to: papers\Explainable AI_ A Review of Machine Learning Interpretability Methods.pdf
+2025-04-30 14:27:59,216 - __main__ - INFO - Processing paper 2: Explainable artificial intelligence: an analytical review
+2025-04-30 14:27:59,216 - openalex_search - DEBUG - Getting download links for work: Explainable artificial intelligence: an analytical review
+2025-04-30 14:27:59,216 - openalex_search - DEBUG - Found additional PDF location: https://eprints.lancs.ac.uk/id/eprint/157114/1/WIDM_1424_updated_1_.pdf
+2025-04-30 14:27:59,217 - openalex_search - DEBUG - Found open access URL: https://eprints.lancs.ac.uk/id/eprint/157114/1/WIDM_1424_updated_1_.pdf
+2025-04-30 14:27:59,217 - openalex_search - INFO - Total download links found: 2
+2025-04-30 14:27:59,217 - __main__ - INFO - Found 2 download links
+2025-04-30 14:27:59,217 - __main__ - INFO - Attempting to download from: https://eprints.lancs.ac.uk/id/eprint/157114/1/WIDM_1424_updated_1_.pdf
+2025-04-30 14:27:59,217 - openalex_search - INFO - Attempting to download paper: Explainable artificial intelligence: an analytical review
+2025-04-30 14:27:59,218 - openalex_search - DEBUG - Download URL: https://eprints.lancs.ac.uk/id/eprint/157114/1/WIDM_1424_updated_1_.pdf
+2025-04-30 14:27:59,218 - openalex_search - DEBUG - Target filepath: papers\Explainable artificial intelligence_ an analytical review.pdf
+2025-04-30 14:27:59,218 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): eprints.lancs.ac.uk:443
+2025-04-30 14:28:00,562 - urllib3.connectionpool - DEBUG - https://eprints.lancs.ac.uk:443 "GET /id/eprint/157114/1/WIDM_1424_updated_1_.pdf HTTP/11" 200 2026640
+2025-04-30 14:28:01,685 - openalex_search - INFO - Successfully downloaded paper to: papers\Explainable artificial intelligence_ an analytical review.pdf
+2025-04-30 14:28:01,686 - __main__ - INFO - Successfully downloaded to: papers\Explainable artificial intelligence_ an analytical review.pdf
+2025-04-30 14:28:01,686 - __main__ - INFO - Processing paper 3: Extracting spatial effects from machine learning model using local interpretation method: An example of SHAP and XGBoost
+2025-04-30 14:28:01,686 - openalex_search - DEBUG - Getting download links for work: Extracting spatial effects from machine learning model using local interpretation method: An example of SHAP and XGBoost
+2025-04-30 14:28:01,687 - openalex_search - DEBUG - Found additional PDF location: https://eprints.gla.ac.uk/273108/1/273108.pdf
+2025-04-30 14:28:01,687 - openalex_search - DEBUG - Found open access URL: https://doi.org/10.1016/j.compenvurbsys.2022.101845
+2025-04-30 14:28:01,687 - openalex_search - INFO - Total download links found: 2
+2025-04-30 14:28:01,687 - __main__ - INFO - Found 2 download links
+2025-04-30 14:28:01,688 - __main__ - INFO - Attempting to download from: https://eprints.gla.ac.uk/273108/1/273108.pdf
+2025-04-30 14:28:01,688 - openalex_search - INFO - Attempting to download paper: Extracting spatial effects from machine learning model using local interpretation method: An example of SHAP and XGBoost
+2025-04-30 14:28:01,688 - openalex_search - DEBUG - Download URL: https://eprints.gla.ac.uk/273108/1/273108.pdf
+2025-04-30 14:28:01,688 - openalex_search - DEBUG - Target filepath: papers\Extracting spatial effects from machine learning model using local interpretation method_ An example.pdf
+2025-04-30 14:28:01,689 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): eprints.gla.ac.uk:443
+2025-04-30 14:28:02,722 - urllib3.connectionpool - DEBUG - https://eprints.gla.ac.uk:443 "GET /273108/1/273108.pdf HTTP/11" 200 10976884
+2025-04-30 14:28:04,828 - openalex_search - INFO - Successfully downloaded paper to: papers\Extracting spatial effects from machine learning model using local interpretation method_ An example.pdf
+2025-04-30 14:28:04,830 - __main__ - INFO - Successfully downloaded to: papers\Extracting spatial effects from machine learning model using local interpretation method_ An example.pdf
+2025-04-30 14:28:04,831 - __main__ - INFO - Processing paper 4: Energy and Policy Considerations for Modern Deep Learning Research
+2025-04-30 14:28:04,832 - openalex_search - DEBUG - Getting download links for work: Energy and Policy Considerations for Modern Deep Learning Research
+2025-04-30 14:28:04,832 - openalex_search - DEBUG - Found primary location PDF: https://ojs.aaai.org/index.php/AAAI/article/download/7123/6977
+2025-04-30 14:28:04,833 - openalex_search - DEBUG - Found additional PDF location: https://ojs.aaai.org/index.php/AAAI/article/download/7123/6977
+2025-04-30 14:28:04,833 - openalex_search - DEBUG - Found open access URL: https://ojs.aaai.org/index.php/AAAI/article/download/7123/6977
+2025-04-30 14:28:04,834 - openalex_search - INFO - Total download links found: 3
+2025-04-30 14:28:04,834 - __main__ - INFO - Found 3 download links
+2025-04-30 14:28:04,835 - __main__ - INFO - Attempting to download from: https://ojs.aaai.org/index.php/AAAI/article/download/7123/6977
+2025-04-30 14:28:04,835 - openalex_search - INFO - Attempting to download paper: Energy and Policy Considerations for Modern Deep Learning Research
+2025-04-30 14:28:04,836 - openalex_search - DEBUG - Download URL: https://ojs.aaai.org/index.php/AAAI/article/download/7123/6977
+2025-04-30 14:28:04,837 - openalex_search - DEBUG - Target filepath: papers\Energy and Policy Considerations for Modern Deep Learning Research.pdf
+2025-04-30 14:28:04,837 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): ojs.aaai.org:443
+2025-04-30 14:28:06,498 - urllib3.connectionpool - DEBUG - https://ojs.aaai.org:443 "GET /index.php/AAAI/article/download/7123/6977 HTTP/11" 403 250
+2025-04-30 14:28:06,501 - openalex_search - ERROR - Error downloading https://ojs.aaai.org/index.php/AAAI/article/download/7123/6977: 403 Client Error: Forbidden for url: https://ojs.aaai.org/index.php/AAAI/article/download/7123/6977
+2025-04-30 14:28:06,505 - __main__ - INFO - Attempting to download from: https://ojs.aaai.org/index.php/AAAI/article/download/7123/6977
+2025-04-30 14:28:06,506 - openalex_search - INFO - Attempting to download paper: Energy and Policy Considerations for Modern Deep Learning Research
+2025-04-30 14:28:06,507 - openalex_search - DEBUG - Download URL: https://ojs.aaai.org/index.php/AAAI/article/download/7123/6977
+2025-04-30 14:28:06,508 - openalex_search - DEBUG - Target filepath: papers\Energy and Policy Considerations for Modern Deep Learning Research.pdf
+2025-04-30 14:28:06,510 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): ojs.aaai.org:443
+2025-04-30 14:28:07,895 - urllib3.connectionpool - DEBUG - https://ojs.aaai.org:443 "GET /index.php/AAAI/article/download/7123/6977 HTTP/11" 403 250
+2025-04-30 14:28:07,896 - openalex_search - ERROR - Error downloading https://ojs.aaai.org/index.php/AAAI/article/download/7123/6977: 403 Client Error: Forbidden for url: https://ojs.aaai.org/index.php/AAAI/article/download/7123/6977
+2025-04-30 14:28:07,900 - __main__ - INFO - Attempting to download from: https://ojs.aaai.org/index.php/AAAI/article/download/7123/6977
+2025-04-30 14:28:07,901 - openalex_search - INFO - Attempting to download paper: Energy and Policy Considerations for Modern Deep Learning Research
+2025-04-30 14:28:07,901 - openalex_search - DEBUG - Download URL: https://ojs.aaai.org/index.php/AAAI/article/download/7123/6977
+2025-04-30 14:28:07,902 - openalex_search - DEBUG - Target filepath: papers\Energy and Policy Considerations for Modern Deep Learning Research.pdf
+2025-04-30 14:28:07,904 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): ojs.aaai.org:443
+2025-04-30 14:28:09,277 - urllib3.connectionpool - DEBUG - https://ojs.aaai.org:443 "GET /index.php/AAAI/article/download/7123/6977 HTTP/11" 403 250
+2025-04-30 14:28:09,278 - openalex_search - ERROR - Error downloading https://ojs.aaai.org/index.php/AAAI/article/download/7123/6977: 403 Client Error: Forbidden for url: https://ojs.aaai.org/index.php/AAAI/article/download/7123/6977
+2025-04-30 14:28:09,279 - __main__ - INFO - Processing paper 5: The Promise of Artificial Intelligence
+2025-04-30 14:28:09,280 - openalex_search - DEBUG - Getting download links for work: The Promise of Artificial Intelligence
+2025-04-30 14:28:09,280 - openalex_search - INFO - Total download links found: 0
+2025-04-30 14:28:09,280 - __main__ - INFO - Found 0 download links
